@@ -1,0 +1,9 @@
+https://blog.51cto.com/u_15297476/5118010
+sudo apt-get update
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg2 \
+    software-properties-common
+curl -sSL https://get.daocloud.io/docker | sh
